@@ -1,0 +1,41 @@
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.card-agendar {
+
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.card-body-agendar{
+  padding: 0px;
+  object-fit: cover;
+  }
+
+
+.card-body-agendar img {
+  object-fit: cover;
+  width: 300px !important;
+  height: 200px;
+  object-fit: cover;
+  
+}
+
+.card-footer-agendar
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer-button-agendar
+{
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
